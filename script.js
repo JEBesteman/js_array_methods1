@@ -41,13 +41,6 @@ const selectBelgiumFromBenelux = function (array) {
 console.log(selectBelgiumFromBenelux(["Belgie", "Nederland", "Luxemburg"]));
 // resultaat: "Belgie" 
 
-//4 met shift() => muteert ook array
-const selectBelgiumFromBenelux = function (array) {
-    return array.shift();
-};
-
-console.log(selectBelgiumFromBenelux(["Belgie", "Nederland", "Luxemburg"]));
-
 
 //D Schrijf een JavaScript functie om het laatste element uit een array te retourneren.
 
